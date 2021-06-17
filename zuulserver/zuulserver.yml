@@ -18,6 +18,7 @@ zuul:
    courseservice:
      path: /courseapi/**
      url: http://localhost:8082/
+  sensitive-headers: Cookie,Set-Cookie
 
 
 #Setting the logging levels for the service
@@ -26,4 +27,3 @@ logging:
     com.netflix: WARN
     org.springframework.web: WARN
     com.courseapp: DEBUG
-
