@@ -32,3 +32,11 @@ logging:
     com.netflix: WARN
     org.springframework.web: WARN
     com.courseapp: DEBUG
+    
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8901/user
+
+signing:
+  key: 345345fsdgsf5345
